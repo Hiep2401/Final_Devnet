@@ -20,6 +20,11 @@
           enabled: true
         - name: Ethernet0/2
           enabled: true 
+    - name: Cau hinh static route tren R1
+      ios_static_route:
+        prefix: 192.168.2.0
+        mask: 255.255.255.0
+        next_hop: 192.168.3.2 
 
 
 - name: Cau hinh tren thiet bi R2
@@ -43,4 +48,8 @@
           enabled: true
         - name: Ethernet0/2
           enabled: true 
-
+    - name: Cau hinh static route tren R2
+      ios_static_route:
+        prefix: 192.168.1.0
+        mask: 255.255.255.0
+        next_hop: 192.168.3.1 
