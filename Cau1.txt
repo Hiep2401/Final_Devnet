@@ -1,0 +1,11 @@
+thực hiện tạo repository trên tài khoản github của chúng ta
+
+sau đó clone repository về:
+git clone <url_repository>
+
+sau đó tạo các file theo yêu cầu 
+sau khi thực hiện các câu thì thực hiện push lên repository:
+
+git add .
+git commit -m "thong tin"
+git push

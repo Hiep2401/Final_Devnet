@@ -1,0 +1,10 @@
+Thực hiện tương tác với API để lấy danh sách thiết bị có thể tham
+khảo tại đây:
+
+https://developer.cisco.com/docs/sdwan/
+
+https://developer.cisco.com/docs/sdwan/#!authentication/how-to-authenticate
+
+https://developer.cisco.com/docs/sdwan/#!sd-wan-vmanage-v20-6
+
+/dataservice/device
